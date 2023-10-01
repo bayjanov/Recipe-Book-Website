@@ -19,8 +19,9 @@ Contains two links:
 
 The central area of the app where users can view and interact with recipes.
 Comprises several sections, including "Recipes of the Day," "Explore Recipes," and an "Add New Recipe" button.
-Key Features
 
+
+Key Features
 
 **Sidebar**
 All Recipes: Clicking this button navigates to the Main Page, where users can view all available recipes.
