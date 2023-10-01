@@ -8,7 +8,6 @@ The Recipe App is a web application that allows users to explore and manage reci
 
 
 
-
 **Sidebar:**
 
 Provides navigation between the main sections of the app.
