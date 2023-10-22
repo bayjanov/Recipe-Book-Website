@@ -7,12 +7,12 @@ const sideBarContent = `
   <div id="sidebar">
     <div class="sidebar-nav">
       <a class="page-link main-page-link">
-        <img src="public/images/main-icon.svg" alt="Main Page Icon">
+        <img src="public/images/main-icon.png" alt="Main Page Icon">
       </a>
     </div>
     <div class="sidebar-nav">
       <a class="page-link favorites-page-link">
-        <img src="public/images/favorites-icon.svg" alt="Favorites Page Icon">
+        <img src="public/images/favorites-icon.png" alt="Favorites Page Icon">
       </a>
     </div>
   </div>
