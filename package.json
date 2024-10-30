@@ -13,7 +13,8 @@
     "format": "prettier --write \"**/*.js\"",
     "server": "json-server --watch db.json --port $PORT",
     "dev": "concurrently --kill-others \"yarn start\" \"yarn server\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "vercel-build": "webpack --mode production"
   },
   "engines": {
     "npm": "please-use-yarn",
