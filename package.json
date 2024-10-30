@@ -11,7 +11,7 @@
     "lint:fix": "eslint \"**/*.js\" --fix",
     "prettier": "prettier --check \"**/*.js\"",
     "format": "prettier --write \"**/*.js\"",
-    "server": "json-server --watch db.json",
+    "server": "json-server --watch db.json --port $PORT",
     "dev": "concurrently --kill-others \"yarn start\" \"yarn server\"",
     "prepare": "husky install"
   },
@@ -20,7 +20,7 @@
     "yarn": ">= 1.22.17"
   },
   "devDependencies": {
-    "concurrently": "^8.0.1",
+    "concurrently": "^9.0.1",
     "css-loader": "^6.8.1",
     "eslint": "^8.46.0",
     "eslint-config-airbnb-base": "^15.0.0",
